@@ -1,0 +1,13 @@
+#nome, .sub, .post{
+color: blue;
+}
+
+.post{
+font-size:16px;
+font-style:arial;
+}
+
+#nome{
+font-style:italic;
+
+}
