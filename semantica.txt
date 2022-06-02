@@ -1,0 +1,38 @@
+1-Histoeia e estrutura basica
+2-Semantica
+3-Principais elementos de HTML
+
+
+Requisitos Básicos
+
+Um editor de texto
+Um navegador de internet
+
+
+(<h1 (class=titulo">) (Titulo) </h1>) <--- ELEMENTO HTML
+(Abrindo a tag | Atributo | Conteudo da linha | fecha tag
+
+
+Estrutura básica
+
+<!DOCTYPO html>
+<html>
+<head>
+<meta>
+<title></title>
+</head>
+<body>
+</body>
+</html>
+
+
+Semântica
+
+<section>
+<header>
+<article>
+<aside>
+<footer>
+<h1>-<h6>
+
+

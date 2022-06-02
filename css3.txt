@@ -1,0 +1,36 @@
+CSS3
+
+Objetivo
+1.O que são seletores
+2.Conceitos básicos
+
+
+Requisitos Básicos
+
+Um editor de texto
+Um navegador de internet
+Ter assistido às aulas de introdução ao HTML 5
+
+O que são seletores:
+a, p, h1, h3 {
+color: blue;
+font-size: 14px; }
+  ^
+  |
+declarações
+
+
+ID X CLASSE
+<Header id="header" class="header"> </header>
+<header class="header"> </header>
+
+
+ID é precendido por um .
+.header{
+padding:10px;
+}
+
+Classe precendido por #
+#header{
+padding: 15px;
+}

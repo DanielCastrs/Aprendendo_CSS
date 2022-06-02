@@ -1,0 +1,303 @@
+https://developer.mozilla.org/pt-BR/
+
+Conceitos básicos
+
+semantica 
+
+<section> -> elemento generico
+<header> cabeçalho da pagina
+<article> um conteudo relevante da pagina
+<aside> representa um relevan e e principal de uma pagina
+<footer> rodape da pagina ou roda pe de um section
+
+
+Textos e links
+
+<h1> - <h6>
+<p> Conteudo do artigo um paragrafo </p>
+
+
+<a> link </a>
+<a href="link"> Link </a>
+<a href="mailto:mocaibre@gmail.com">E-Mail para contado</a>
+Adicionar o atributo target="_blank" para abrir o link em uma outra pagina
+
+tinypng.com -> site que ajuda otimizar imagens retirando alguns meta dados 
+
+
+Listas
+
+ul - não ordenado
+ol - ordenado
+li - item da lista
+
+
+O que são seletores são elementos html
+a, p, h1, h3{ 
+color:blue;
+font-size:14px
+} --> alterou a cor e o tamanho da letra.
+
+declaração é uma propriedade e valor
+
+ID X CLASSE
+
+
+<header id="header" class="header"> </header>
+ID é precedido por .
+.header{
+padding:10px;
+}
+
+
+<header class="header"> </header>
+classe é precedido por #
+#padding:15px;
+
+<link rel="stylesheet" href="style.css">
+
+link - > chama o link
+rel="stylesheet" -> diz que tipo de arquivo estamos adicionando
+href="style.css" -> aponta o arquivo que estamos adicionando
+
+
+
+box model tem 4 areas
+
+Margin - são espaçamentos entre elementos
+border - elas circulam os paddings e o conteudo e conseguimos alterar a borda dela como largura e cor
+padding - é o espaçamento entre a borda e o conteudo
+content - é oq seu bloco representa, um texto,bloco ou video
+
+
+Padding e margin
+
+Para determinar o espaçamento primeiro ele decide o superior e inferior e o proximo numero é direta e esquerda;
+
+.post{
+	padding: 10px 5px; aqui ele diz que 10 é superior e inferior, 5px é direto e esquerdo.
+
+}
+
+.post{
+	padding: 15px 10px 5px 0; 15 para o top, 10 para direita 5 para inferior 0 para esquerdo
+
+}
+
+.post{
+	padding-top: 15px;
+	padding-right: 10px;  ->> é bastante usado quando se tem 3 lados iguais e um diferente
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+
+
+.post{
+
+background-color: green;
+blackground-image: url(monitoramento.png");
+background-position: top;
+
+}
+
+
+3 maneiras de mudar a cor de fundo
+
+.post {
+
+	background-color: green;
+	background-color: #008800;
+	background: #008800;
+}
+
+
+Border:
+
+Pode ter 3 valores: Largura > pixels, centimetros, milimetros
+		    Cor: blue, #0000ff
+		    Estilo: solido, pontilhada, tracejada
+
+
+.post {
+	border: 3px solid blue;
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+
+
+
+
+border:
+
+.post{
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+	border-bottom: 1px solid purple;
+	border-left: 4px dotted cyan;
+}
+
+
+.post {
+
+	border: 3px solid #505050;
+
+}
+
+
+
+.post {
+
+	border-width:3px;
+	border-color: #505050;
+	border-style: solid;
+
+}
+
+.post {
+
+	border-top-width:3px;
+	border-top-color: #505050;
+	border-top-style: solid;
+
+}
+
+
+Border-radius   -> para aredondar um quadrado
+
+border-radius: 10px;
+border-radius:50%;
+border-radius:10% 20%;
+border-radius: 10% 20% 15% 22%;
+
+
+
+Font-family - ela altera a fonte do nosso texto:
+
+
+#title{
+
+font-family: verdana;
+
+}
+
+.post_title{
+
+font-family: verdana, arial;
+
+
+}
+
+FONTE SIZE ALTERA O TAMANHO DA LETRA:
+
+
+#title {
+
+font-size: 30px;
+
+}
+
+
+.post_title {
+font-size: 18px;
+
+}
+
+
+
+Font-style - altera o estilo do nosso texto;
+
+
+#title {
+ 	font-style: normal;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+font-weight - altera o peso do texto
+
+#title `{
+
+font-weight: normal;   ---> comum
+}
+
+.subtitle{
+
+font-weight: bold; ---> negrito
+}
+
+text-transform - altera o texto de minusculo para maiusculo
+
+#title {
+	text-transform: uppercase;  ----> deixa todo o texto em caixa alta
+}
+
+
+.subtitle {
+	text-transform: lowercase; ----- transofrma o texto em minusculo
+
+}
+
+
+.post_title { 
+	text-transform:capitalize; -----> deixa todas as letras do começo dos textos em maiusculo
+}
+
+
+Text-decoration
+
+
+#title {
+	Text-decoration: underline; ---> coloca uma linha abaixo da palavra
+}
+
+.subtitle {
+	text-decoration: overline; ---> coloca uma linha em cima da palavra
+}
+
+.post_title {
+	text-decoration: line-through; -----> coloca uma linha no centro da palavra
+}
+
+
+*****LISTAS*****
+
+list-style-image
+
+
+ul {
+	list-style:square; -----> muda para quadrado
+}
+
+ol{
+	list-style-type:upper-roman; -----> muda para algarismo romano maiusculo
+}
+
+ul{
+	list-style-tyle: "\'F44D"; ----> estamos alterando de uma lista nao alternada para um simbolo
+}
+
+
+
+ul {
+	list-style-image: url("rocket.png"); -------- colocando uma imagem na lista nao ordenada
+}
+
+ul {
+	list-style-type:none; ------ retira os pontinhos da lista
+}
+
+
+DIMENSÃO E ALINHAMENTO - SÃO ALGO MUITO IMPORTANTES
+
+Width --- Largura
+Height -- Altura
+
+
+Max-Width ---- Largura maxima que o elemento pode ter
+Max-height --- Altura maxima que ele pode ter
+
+
+Margin ---- Margem 
+
+Texto align --- alinhar texto , e tem todas as ordens de lados para alinhar

@@ -1,0 +1,28 @@
+Comando HTML
+
+<P> </P> -> CRIA PARAGRAFO
+
+<A> LINK</A>
+<A HREF="LINKEDIN.COM">LINKEDIN</A>
+<A HREF="MAILTO:MOCAIBRE@GMAIL.COM">APONTA PARA O EMAIL</A>
+<A TARGET="_BLANK">LINK </A>
+
+<img>
+<img src="img/avatar.jpg">
+<img alt="Descrição da foto">
+<img src="img/avatar.jpg" alt="descrição da foto">
+
+width="205" height="205"
+
+Lista
+
+<ul> -> lista não ordenada
+Item 1
+Item 2
+
+<ol> -> lista que contem ordem
+1. item 1
+2. item 3
+
+
+<li> um item da lista
